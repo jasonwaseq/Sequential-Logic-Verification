@@ -1,3 +1,3 @@
-# Lab Assignment 6
+# Sequential Logic Verification
 
-Click `Code` > `Codespaces` > `Create codespace on main` to start coding!
+I designed comprehensive Verilog testbenches to verify multiple obfuscated sequential logic modules—including D flip-flops, counters, and shifters—without prior knowledge of which implementations were correct. I developed automated stimulus sequences, implemented proper reset behavior, and validated positive-edge-triggered operation across several functional conditions. By analyzing waveform outputs and leveraging FINISH_WITH_PASS/FINISH_WITH_FAIL, I systematically identified logic defects such as incorrect reset handling, improper counting behavior, and invalid shifting operations. This part strengthened my ability to validate hardware designs across simulators and reinforced industry-standard testing practices.
